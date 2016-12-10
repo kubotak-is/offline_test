@@ -1,0 +1,25 @@
+{
+  "name": "offline_test",
+  "version": "1.0.0",
+  "main": "_",
+  "scripts": {
+    "server": "http-server -o",
+    "build": "webpack"
+  },
+  "repository": {
+    "url": "git@github.com:kubotak-is/offline_test.git",
+    "type": "git"
+  },
+  "author": "kubotak-is <kubotak@istyle.co.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "http-server": "^0.9.0",
+    "webpack": "^1.14.0"
+  }
+}
