@@ -7,8 +7,8 @@ const ORIGIN = `${location.protocol}//${location.hostname}` + (location.port ? '
 const STATIC_FILES = [
   'https://fonts.googleapis.com/css?family=Josefin+Sans',
   'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',
-  `${ORIGIN}/`,
-  `${ORIGIN}/?utm_source=web_app_manifest`,
+  `${ORIGIN}/offline_test/public/`,
+  `${ORIGIN}/offline_test/public/?utm_source=web_app_manifest`,
   // `${ORIGIN}image.png`, // sample
 ];
 let STATIC_FILE_URL_HASH = {};
